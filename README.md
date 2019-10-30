@@ -14,8 +14,6 @@ The NAP Stack consists of Nuxt on the frontend with an Apollo/Prisma backend. Th
 
     prisma deploy
 
-Your Prisma endpoint will be live at: http://localhost:4466
-
 Your Prisma endpoint will be live at: [http://localhost:4466](http://localhost:4466)
 
 ## **Setup & Start Your Apollo Server**
@@ -64,3 +62,7 @@ Your Nuxt Development Server endpoint will be live at: [http://localhost:3000](h
 Open a 3rd terminal and follow along below.
 
     cd nuxt && npm run storybook
+
+Your Storybook Server endpoint will be live at: [http://localhost:2001](http://localhost:2001)
+
+_Credit:_ This repo wouldn't have been possible without [ikey2244 's prisma-apollo-server-2.0 repo](https://github.com/ikey2244/prisma-apollo-server-2.0).
