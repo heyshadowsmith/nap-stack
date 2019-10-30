@@ -1,3 +1,5 @@
+![NAP Stack](https://github.com/TheShadowSmith/nap-stack/blob/master/nap-stack-logo.png "NAP Stack")
+
 # NAP (Nuxt Apollo Prisma) Stack
 
 The NAP Stack consists of Nuxt on the frontend with an Apollo/Prisma backend. This repo also uses AWS Amplify for Cognito Authentication and Storybook for isolated component documentation.
