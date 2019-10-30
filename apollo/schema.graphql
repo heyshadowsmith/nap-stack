@@ -1,0 +1,19 @@
+# types
+type Query {
+  user(id: ID): User!
+  users: [User!]!
+}
+
+type Mutation {
+  createUser(data: CreateUserInput): User!
+}
+
+type User {
+  id: ID!
+  name: String!
+}
+
+# inputs
+input CreateUserInput {
+  name: String!
+}

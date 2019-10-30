@@ -1,0 +1,16 @@
+{
+  "name": "nap-stack",
+  "version": "1.0.0",
+  "description": "The NAP Stack consists of Nuxt on the frontend with an Apollo/Prisma backend. This repo also uses AWS Amplify for Cognito Authentication and Storybook for isolated component documentation.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheShadowSmith/nap-stack.git"
+  },
+  "author": "Shadow Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheShadowSmith/nap-stack/issues"
+  },
+  "homepage": "https://github.com/TheShadowSmith/nap-stack#readme"
+}
