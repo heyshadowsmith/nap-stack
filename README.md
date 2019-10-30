@@ -65,4 +65,4 @@ Open a 3rd terminal and follow along below.
 
 Your Storybook Server endpoint will be live at: [http://localhost:2001](http://localhost:2001)
 
-_Credit:_ This repo wouldn't have been possible without [ikey2244 's prisma-apollo-server-2.0 repo](https://github.com/ikey2244/prisma-apollo-server-2.0).
+**Credit:** This repo wouldn't have been possible without [ikey2244 's prisma-apollo-server-2.0 repo](https://github.com/ikey2244/prisma-apollo-server-2.0).
