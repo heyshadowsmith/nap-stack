@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-xl bg-white shadow-md rounded-lg p-8">
+  <SCard>
     <h2 class="text-blue-800 text-2xl mb-6 font-bold">Users in Database</h2>
     <div v-if="users.length === 0" class="mb-6">
       <p>You don't have any users in your database yet.</p>
@@ -14,13 +14,17 @@
     <p
       class="text-gray-500 text-xs mt-6"
     >All user names are going to be their email if you didn't change anything up to this point.</p>
-  </div>
+  </SCard>
 </template>
 
 <script>
+import SCard from "../components/atoms/SCard/SCard";
 import GET_USERS from "../queries/users";
 
 export default {
+  components: {
+    SCard
+  },
   data() {
     return {
       users: []
