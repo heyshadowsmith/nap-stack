@@ -1,9 +1,9 @@
 {
   "name": "apollo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js --ext js,graphql --exec babel-node"
+    "start": "nodemon app.js --ext js,graphql --exec babel-node"
   },
   "author": "Shadow Smith",
   "license": "MIT",
