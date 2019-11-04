@@ -1,0 +1,23 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "author": "Shadow Smith",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "storybook": "npx tailwind build assets/css/tailwind.css -o assets/css/main.css && start-storybook -p 2001"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc17",
+    "aws-amplify": "^1.2.2",
+    "aws-amplify-vue": "^0.3.2",
+    "babel-preset-vue": "^2.0.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.1.2",
+    "@storybook/vue": "^5.2.5"
+  }
+}
