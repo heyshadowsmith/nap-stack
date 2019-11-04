@@ -4,7 +4,7 @@ import {
 import '../assets/css/main.css'
 
 function loadStories() {
-  const req = require.context('../storybook/stories', true, /\.stories\.js$/)
+  const req = require.context('../components', true, /\.stories\.js$/)
   req.keys().forEach(filename => req(filename))
 }
 
